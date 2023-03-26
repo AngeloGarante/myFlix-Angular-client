@@ -1,0 +1,41 @@
+.wrapper {
+  color: white;
+  background-color: #424242;
+  align-items: center;
+}
+.profile-title {
+  font-size: 50px;
+}
+
+.mycard-header {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(194, 84, 84);
+  border-radius: 20%;
+  border: 2px solid black;
+  padding-bottom: 30px;
+}
+
+.update-form {
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.mat-mdc-raised-button.mat-unthemed {
+  --mdc-protected-button-container-color: #f4ff81;
+  --mdc-protected-button-label-text-color: #000;
+}
+
+.img-wrapper {
+  width: 25%;
+  height: auto;
+}
+
+.wrapper-favorite {
+  box-sizing: border-box;
+  width: min-content;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}

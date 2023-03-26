@@ -1,0 +1,38 @@
+<mat-card class="wrapper">
+    <mat-card-header>
+        <mat-card-title>Log In</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form>
+            <mat-form-field>
+                <input
+                matInput
+                [(ngModel)]="loginData.Username"
+                placeholder="Username"
+                type="Text"
+                name="Username"
+                required>
+            </mat-form-field>
+            <mat-form-field>
+                <input
+                matInput
+                [(ngModel)]="loginData.Password"
+                placeholder="Password"
+                type="password"
+                name="Password"
+                required>
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+    <button
+    mat-raised-button
+    (click)="loginUser()">
+    login
+</button>
+<button class="close-button"
+mat-raised-button
+    mat-dialog-close="X">Close
+    </button>
+</mat-card-actions>
+</mat-card>

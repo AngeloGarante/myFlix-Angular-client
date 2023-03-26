@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Bungee";
+  font-size: 40px;
+}
+
+.welcome-container {
+  width: 600px;
+  border: 20px solid black;
+  padding: 25%;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  margin: 1.5em 2em;
+}
+
+.title {
+  text-align: center;
+}
+
+button {
+  justify-content: center;
+  width: 40%;
+  position: relative;
+  left: 100px;
+}/*# sourceMappingURL=welcome-page.component.css.map */

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Bungee";
+  font-size: 80px;
+}
+
+.welcome-container {
+  width: 500px;
+  border: 20px solid black;
+  padding: 25%;
+  position: absolute;
+  top: 60px;
+  left: 450px;
+  margin: 1.5em 2em;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+.user-prt {
+  display: flex;
+  justify-content: center;
+}
+.mdc-fab--mini {
+  background-color: red;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-size: medium;
+  width: 100px;
+  height: 100px;
+}
+.mat-mdc-card {
+  background-color: rgb(165, 95, 95);
+}

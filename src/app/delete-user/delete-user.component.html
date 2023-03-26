@@ -1,0 +1,31 @@
+<mat-card class="wrapper">
+    <mat-card-header>
+        <mat-card-title>Delete Account</mat-card-title>
+    </mat-card-header>
+<mat-card-content>
+    <form>
+Please write your username:
+<mat-form-field>
+    <input 
+    matInput
+    [(ngModel)]="name"
+    name="name"
+    placeholder="{{username}}"
+    required>
+</mat-form-field>
+    </form>
+
+</mat-card-content>
+<mat-card-actions>
+<button
+mat-raised-button
+(click)="deleteUser()">
+Delete
+</button>
+<button
+class="close-button"
+mat-raised-button
+    mat-dialog-close="X">Close
+    </button>
+</mat-card-actions>
+</mat-card>
