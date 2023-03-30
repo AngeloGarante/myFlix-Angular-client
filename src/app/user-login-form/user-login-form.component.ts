@@ -16,6 +16,10 @@ export class UserLoginFormComponent implements OnInit {
     public snackBar: MatSnackBar,
     private router: Router
   ) {}
+  /**
+   * Register User
+   * @function userLogin
+   */
   ngOnInit(): void {}
   loginUser(): void {
     localStorage.clear();

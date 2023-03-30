@@ -23,6 +23,9 @@ const appRoutes: Routes = [
   { path: '', redirectTo: 'welcome', pathMatch: 'prefix' },
   { path: 'profile', component: ProfileComponent },
 ];
+/**
+ * Angular Material imported as Material Module check src/app/material
+ */
 @NgModule({
   declarations: [
     AppComponent,

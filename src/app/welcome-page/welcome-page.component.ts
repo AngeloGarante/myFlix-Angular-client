@@ -7,6 +7,10 @@ import { UserRegistrationFormComponent } from '../user-registration-form/user-re
   templateUrl: './welcome-page.component.html',
   styleUrls: ['./welcome-page.component.scss'],
 })
+
+/**
+ * User dialog for registering and log in
+ */
 export class WelcomePageComponent implements OnInit {
   constructor(public dialog: MatDialog) {}
   ngOnInit(): void {}

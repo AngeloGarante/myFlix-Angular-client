@@ -21,6 +21,13 @@ export class MovieCardComponent implements OnInit {
     public dialog: MatDialog,
     public snackBar: MatSnackBar
   ) {}
+  /**
+   * Synopsis - Genre - Director extracted from the movie object
+   * @function getAllMovies
+   * @returns movies
+   * @function toggleFavorite
+   * @return booleans on user favorite movies list
+   */
 
   ngOnInit(): void {
     this.getMovies();

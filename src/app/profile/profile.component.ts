@@ -9,6 +9,14 @@ import { DeleteUserComponent } from '../delete-user/delete-user.component';
   styleUrls: ['./profile.component.scss'],
 })
 export class ProfileComponent implements OnInit {
+  /**
+   * Input data has set of base value predefined
+   * @param updateData
+   * @function getUser
+   * @function updateUser
+   * @function deleteUser
+   * @returns values from Users and Movies
+   */
   user: any = {};
   @Input() updateData = {
     Username: this.user.Username,
